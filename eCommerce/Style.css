@@ -1,0 +1,186 @@
+﻿.body-content {
+    margin-top: 88px;
+}
+.carousel-caption {
+    text-align: left;
+    color: #000;
+    top: 5.25rem;
+    right: inherit;
+    left: inherit;
+}
+
+.fa-map-marker:before, .fa-clock-o:before {
+    color: #ed5338;
+    font-size: 28px;
+    padding-right: 7px;
+    position: relative;
+    top: 4px;
+}
+
+.fa-clock-o:before {
+    color: #ed5338;
+    font-size: 24px;
+    padding-right: 7px;
+    position: relative;
+    top: 4px;
+}
+
+.fa-envelope-o:before {
+    color: #ed5338;
+    font-size: 20px;
+    padding-right: 7px;
+    position: relative;
+    top: 4px;
+}
+
+.fa-mobile:before {
+    color: #ed5338;
+    font-size: 32px;
+    padding-right: 7px;
+    position: relative;
+    top: 4px;
+}
+
+.card {
+    margin-bottom: 20px;
+    height: 410px;
+}
+
+    .card img {
+        padding-top: 10px;
+        min-height: 150px;
+        max-height: 150px;
+        max-width: 150px;
+        margin: auto;
+    }
+
+.card-body h5 {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    line-height: 50px; /* fallback */
+    max-height: 40px; /* fallback */
+    -webkit-line-clamp: 2; /* number of lines to show */
+    -webkit-box-orient: vertical;
+}
+
+.card-body p {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    max-height: 3.6em; /* (Number of lines you want visible) * (line-height) */
+    line-height: 1.2em;
+    -webkit-box-orient: vertical;
+}
+
+.cartlist img {
+    max-width: 50px;
+}
+
+.cartlist tr td:nth-child(2) {
+    text-align: center;
+}
+
+.loginbg {
+    background-image: url(Images/Loginbg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.form-signin {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+    .form-signin form {
+        background-color: rgb(255 255 255 / 70%);
+        min-width: 510px;
+    }
+
+.form-floating {
+    margin-bottom: 10px;
+}
+
+.form-control {
+    position: relative;
+    width: 100%;
+}
+
+    .form-control input {
+        background-color: transparent;
+        border: 0;
+        border-bottom: 2px solid #fff;
+        display: block;
+        width: 100%;
+        padding: 15px 0 10px 0;
+        font-size: 18px;
+        color: #fff;
+    }
+
+        .form-control input:focus,
+        .form-control input:valid {
+            outline: 0;
+            border-bottom-color: rgb(241, 97, 157);
+        }
+
+    .form-control label {
+        position: absolute;
+        top: 15px;
+        left: 0;
+    }
+
+        .form-control label span {
+            display: inline-block;
+            font-size: 18px;
+            min-width: 5px;
+            transition: 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+        }
+
+    .form-control input:focus + label span,
+    .form-control input:valid + label span {
+        color: rgb(241, 97, 157);
+        transform: translateY(-30px);
+    }
+
+.filterDiv {
+    display: none;
+}
+
+.popupimg img {
+    max-width: 300px;
+    margin: 0px auto;
+    justify-content: center;
+    display: flex;
+}
+.show {
+    display: block;
+}
+#HomeProducts .card {
+    height:350px;
+}
+#HomeCardList h4 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+#Homecategories button {
+    text-transform: capitalize;
+    margin-right: 10px;
+}
+@media(max-width:992px) and (min-width:375px) {
+    .carousel-item img {
+        height: calc(547px - 300px);
+    }
+
+    .carousel-caption {
+        top: 0px;
+    }
+
+    .form-signin form {
+        min-width: auto;
+    }
+}
